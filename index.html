@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galaxy Glasses — Optik & Periksa Mata di Margonda Depok</title>
+  <meta name="description"
+    content="Optik independen Galaxy Glasses di Jl. Margonda Depok. Melayani periksa mata langsung di toko, kacamata baru, ganti lensa, dan servis frame.">
+  <meta name="theme-color" content="#FFFFFF">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Galaxy Glasses — Optik & Periksa Mata Depok">
+  <meta property="og:description" content="Kacamata pas di wajah, periksa mata langsung di Margonda Depok.">
+  <meta property="og:image" content="img/galaxyglasseslogo.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans (500 & 700 only) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="page-container">
+
+    <!-- 1. Slim Header -->
+    <header class="site-header">
+      <a href="index.html" class="brand-lockup" aria-label="Galaxy Glasses, beranda">
+        <img src="img/logo-mark.png" alt="" class="brand-logo-mark" width="74" height="28">
+        <span class="brand-text">
+          <span class="brand-name">Galaxy Glasses</span>
+          <span class="brand-tagline">Optik · Depok</span>
+        </span>
+      </a>
+      <a href="#booking" class="btn btn-header">Booking</a>
+    </header>
+
+    <main>
+      <!-- 2. Hero Section -->
+      <section class="hero-section">
+        <div class="hero-image-wrap">
+          <img src="img/galaxyglasseslogo.jpg" alt="Koleksi kacamata Galaxy Glasses Margonda Depok" class="hero-image"
+            width="780" height="520" fetchpriority="high">
+        </div>
+        <div class="hero-content">
+          <span class="hero-tag">Optik Margonda Depok</span>
+          <h1 class="hero-title">Kacamata pas di wajah, periksa mata langsung di Margonda.</h1>
+          <p class="hero-subtitle">Optik independen di Square Margonda. Mau periksa mata gratis, cari frame yang
+            proporsional, atau ganti lensa resep baru — semua dilayani santai dan teliti.</p>
+          <div class="hero-actions">
+            <a href="katalog.html" class="btn btn-primary btn-block">Lihat Katalog</a>
+            <a href="#booking" class="btn btn-secondary btn-block">Booking Periksa Mata</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Info Strip (One Line) -->
+      <div class="info-strip">
+        <div class="info-strip-inner">
+          <span class="info-strip-dot" aria-hidden="true"></span>
+          <span>Periksa mata dilayani langsung di toko, booking dulu lewat WhatsApp.</span>
+        </div>
+      </div>
+
+      <!-- 4. Pilihan Kami (Horizontal Scroll-Snap Row of 6 Products) -->
+      <section class="featured-section">
+        <div class="featured-header">
+          <div>
+            <h2 class="section-title">Pilihan Kami</h2>
+            <p class="section-desc" style="margin-bottom: 0;">Beberapa model terfavorit minggu ini.</p>
+          </div>
+          <a href="katalog.html" class="link-all">
+            Lihat Semua &rarr;
+          </a>
+        </div>
+
+        <div id="featured-products-row" class="scroll-row" aria-label="Daftar produk pilihan">
+          <!-- Populated dynamically by app.js from products.json -->
+        </div>
+      </section>
+
+      <!-- 5. Layanan Section (Plain List, No Icon Cards) -->
+      <section class="services-section">
+        <h2 class="section-title">Layanan</h2>
+        <p class="section-desc">Pengerjaan teliti langsung di optik kami di Margonda.</p>
+
+        <ul class="services-list">
+          <li class="service-item">
+            <span class="service-title">Periksa mata (gratis)</span>
+            <span class="service-desc">Pemeriksaan ketajaman penglihatan dan refraksi akurat tanpa dipungut
+              biaya.</span>
+          </li>
+          <li class="service-item">
+            <span class="service-title">Kacamata baru (frame + lensa)</span>
+            <span class="service-desc">Pilihan frame acetate, titanium, atau metal lengkap dengan lensa sesuai kebutuhan
+              Anda.</span>
+          </li>
+          <li class="service-item">
+            <span class="service-title">Ganti lensa</span>
+            <span class="service-desc">Bawa frame lama Anda, kami pasangkan lensa baru: anti-radiasi blueray,
+              photochromic, hingga progresif.</span>
+          </li>
+          <li class="service-item">
+            <span class="service-title">Servis dan perbaikan frame</span>
+            <span class="service-desc">Penyetelan dudukan hidung, perbaikan baut longgar, balancing frame miring, dan
+              pembersihan ultrasonik.</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 6. Booking Form -->
+      <section id="booking" class="booking-section">
+        <h2 class="section-title">Booking Jadwal</h2>
+        <p class="section-desc">Pilih waktu kedatangan. Konfirmasi booking langsung terhubung ke WhatsApp toko kami.</p>
+
+        <form id="booking-form" class="booking-form">
+          <div class="form-group">
+            <label for="booking-nama" class="form-label">Nama Lengkap</label>
+            <input type="text" id="booking-nama" class="form-input" placeholder="Contoh: Budi Santoso" required
+              autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label for="booking-layanan" class="form-label">Pilihan Layanan</label>
+            <select id="booking-layanan" class="form-select" required>
+              <option value="" disabled selected>Pilih Layanan</option>
+              <option value="Periksa Mata Gratis">Periksa Mata (Gratis)</option>
+              <option value="Kacamata Baru">Kacamata Baru (frame + lensa)</option>
+              <option value="Ganti Lensa">Ganti Lensa</option>
+              <option value="Servis Frame">Servis dan Perbaikan Frame</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="booking-tanggal" class="form-label">Tanggal Kedatangan</label>
+            <input type="date" id="booking-tanggal" class="form-input" required>
+          </div>
+
+          <div class="form-group">
+            <label for="booking-jam" class="form-label">Jam Kedatangan (10.30 - 20.30 WIB)</label>
+            <select id="booking-jam" class="form-select" required>
+              <option value="" disabled selected>Pilih Jam (10.30 - 20.30)</option>
+            </select>
+            <span class="form-helper">Operasional toko buka jam 10.30 hingga 21.00 WIB.</span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" style="margin-top: 8px;">
+            Kirim Booking via WhatsApp
+          </button>
+        </form>
+      </section>
+
+      <!-- 7. Lokasi Section (Direct Info, No embedded map iframe) -->
+      <section class="location-section">
+        <h2 class="section-title">Lokasi & Jam Buka</h2>
+        <p class="section-desc">Datang langsung ke toko kami di Depok.</p>
+
+        <div class="location-card">
+          <div class="location-item">
+            <span class="location-label">Alamat Toko</span>
+            <p class="location-val">Square Lantai G Blok GS10/1, Jl. Margonda, Kemiri Muka, Kec. Beji, Kota Depok, Jawa
+              Barat 16424</p>
+          </div>
+
+          <div class="location-item">
+            <span class="location-label">Jam Operasional</span>
+            <p class="location-val">Setiap Hari: 10.30 - 20.30 WIB</p>
+          </div>
+
+          <a href="https://maps.app.goo.gl/G4BiwqJNv8MxzhSi8" target="_blank" rel="noopener noreferrer"
+            class="btn btn-secondary btn-block">
+            Buka di Google Maps
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- 8. Footer -->
+    <footer class="site-footer">
+      <a href="index.html" class="brand-lockup brand-lockup--footer" aria-label="Galaxy Glasses, beranda">
+        <img src="img/logo-mark.png" alt="" class="brand-logo-mark" width="90" height="34" loading="lazy">
+        <span class="brand-text">
+          <span class="brand-name">Galaxy Glasses</span>
+          <span class="brand-tagline">Optik · Depok</span>
+        </span>
+      </a>
+
+      <div class="footer-info">
+        <p><strong>Galaxy Glasses Depok</strong><br>
+          Square Lantai G Blok GS10/1, Jl. Margonda, Kemiri Muka, Kec. Beji, Kota Depok, Jawa Barat 16424</p>
+        <p>Jam Buka: 10.30 - 20.30 WIB</p>
+        <div>
+          <a href="https://www.instagram.com/optik.galaxy" target="_blank" rel="noopener noreferrer"
+            class="footer-link">
+            Instagram: @optik.galaxy &rarr;
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-copy">
+        &copy; 2026 Galaxy Glasses. Hak cipta dilindungi.
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button (On every page) -->
+    <a href="https://wa.me/6285100488801?text=Halo%20Galaxy%20Glasses%2C%20saya%20ingin%20bertanya%20tentang%20kacamata%20%26%20periksa%20mata."
+      class="floating-wa" target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp Galaxy Glasses">
+      <svg viewBox="0 0 24 24" width="30" height="30" fill="#FFFFFF" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+      </svg>
+    </a>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

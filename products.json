@@ -1,0 +1,138 @@
+[
+  {
+    "id": "GG-001",
+    "nama": "TR Sporty Ear-Lock",
+    "kategori": "TR90",
+    "tag": [
+      "Sporty"
+    ],
+    "foto": "img/TRSportyEar-Lockgg-001.jpg"
+  },
+  {
+    "id": "GG-002",
+    "nama": "Metal Sporty",
+    "kategori": "Metal",
+    "tag": [
+      "Sporty"
+    ],
+    "foto": "img/MetalSporty.jpg"
+  },
+  {
+    "id": "GG-003",
+    "nama": "TR Acetate",
+    "kategori": "Plastik",
+    "tag": [],
+    "foto": "img/TRAcetate.jpg"
+  },
+  {
+    "id": "GG-004",
+    "nama": "Metal Steel",
+    "kategori": "Metal",
+    "tag": [],
+    "foto": "img/MetalSteel.jpg"
+  },
+  {
+    "id": "GG-005",
+    "nama": "Metal Alloy",
+    "kategori": "Metal",
+    "tag": [],
+    "foto": "img/MetalAlloy.jpg"
+  },
+  {
+    "id": "GG-006",
+    "nama": "Plastik Nylon",
+    "kategori": "Plastik",
+    "tag": [],
+    "foto": "img/PlastikNylon.jpg"
+  },
+  {
+    "id": "GG-007",
+    "nama": "TR Nylon",
+    "kategori": "Plastik",
+    "tag": [],
+    "foto": "img/TRNylon.jpg"
+  },
+  {
+    "id": "GG-008",
+    "nama": "Frame Metal",
+    "kategori": "Metal",
+    "tag": [],
+    "foto": "img/FrameMetal.jpg"
+  },
+  {
+    "id": "GG-009",
+    "nama": "Frame Plastik TR",
+    "kategori": "Plastik",
+    "tag": [],
+    "foto": "img/FramePlastikTR.jpg"
+  },
+  {
+    "id": "GG-010",
+    "nama": "TR Metal",
+    "kategori": "Kombinasi",
+    "tag": [],
+    "foto": "img/TRMetal.jpg"
+  },
+  {
+    "id": "GG-011",
+    "nama": "Plastik Acetate",
+    "kategori": "Plastik",
+    "tag": [],
+    "foto": "img/PlastikAcetate.jpg"
+  },
+  {
+    "id": "GG-012",
+    "nama": "TR Sporty",
+    "kategori": "TR90",
+    "tag": [
+      "Sporty"
+    ],
+    "foto": "img/TRSporty.jpg"
+  },
+  {
+    "id": "GG-013",
+    "nama": "Plastik TR + Metal Alloy",
+    "kategori": "Kombinasi",
+    "tag": [],
+    "foto": "img/PlastikTRMetalAlloy.jpg"
+  },
+  {
+    "id": "GG-014",
+    "nama": "Plastik TR + Metal Steel",
+    "kategori": "Kombinasi",
+    "tag": [],
+    "foto": "img/PlastikTRMetalSteel.jpg"
+  },
+  {
+    "id": "GG-015",
+    "nama": "Frame Plastik Nylon",
+    "kategori": "Plastik",
+    "tag": [],
+    "foto": "img/FramePlastikNylon.jpg"
+  },
+  {
+    "id": "GG-016",
+    "nama": "Frame TR sporty",
+    "kategori": "TR90",
+    "tag": [
+      "Sporty"
+    ],
+    "foto": "img/FrameTRSporty.jpg"
+  },
+  {
+    "id": "GG-019",
+    "nama": "Frame Metal Kids",
+    "kategori": "Metal",
+    "tag": [
+      "Kids"
+    ],
+    "foto": "img/FrameMetalKids.jpg"
+  },
+  {
+    "id": "GG-020",
+    "nama": "Frame TR90",
+    "kategori": "TR90",
+    "tag": [],
+    "foto": "img/FrameTR90.jpg"
+  }
+]
